@@ -64,7 +64,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\BgScript.cs" />
     <Compile Include="Assets\Script\Mainmenu.cs" />
+    <Compile Include="Assets\Script\SoundManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/vstnj/Documents/ESA St-Luc/BLOC 3/Stage/Calculette Bonbon/Calculette_Monstre/Calculette à Bonbons/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
