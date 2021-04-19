@@ -93,6 +93,7 @@ public class CalculetteManager : MonoBehaviour
         Chiffre1Screen.text = " ";
         Chiffre2Screen.text = " ";
         OperationScreen.text = " ";
+        BtnOneIn = false;
     }
 
 

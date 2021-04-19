@@ -4,39 +4,38 @@ using UnityEngine;
 
 public class Mainmenu : MonoBehaviour
 {
-    public GameObject Panel;
+    public GameObject Menu;
     public GameObject Canvas;
     bool Menuactive = true;
-   
-    void Update()
-    {
 
+    public void Start()
+    {
+        Menu.SetActive(true);
+        Canvas.SetActive(false);
     }
  
-    public void CacaProut() 
+    public void PlayButton() 
     {
         Menuactive = false;
-        Menubool();
+        MenuCondition();
     }
 
     public void ReturnButton()
     {
         Menuactive = true;
-        Menubool();
+        MenuCondition();
     }
 
-
-
-    public void Menubool()
+    public void MenuCondition()
     {
         if (Menuactive == true)
         {          
-            Panel.SetActive(true);
+            Menu.SetActive(true);
             Canvas.SetActive(false);
 
         } else if (Menuactive == false)
         {
-            Panel.SetActive(false);
+            Menu.SetActive(false);
             Canvas.SetActive(true);
         }
 

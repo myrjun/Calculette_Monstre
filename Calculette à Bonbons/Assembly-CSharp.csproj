@@ -62,10 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\BgScript.cs" />
-    <Compile Include="Assets\Script\CalculetteManager.cs" />
-    <Compile Include="Assets\Script\Mainmenu.cs" />
-    <Compile Include="Assets\Script\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\BgScript.cs" />
+    <Compile Include="Assets\Scripts\CalculetteManager.cs" />
+    <Compile Include="Assets\Scripts\Mainmenu.cs" />
+    <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/ST_LUC/_BLOC3_S2/STAGES/Production/Caramel_Games/CaramelGame02/Calculette_Monstre/Calculette à Bonbons/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
